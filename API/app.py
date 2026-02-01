@@ -40,3 +40,8 @@ def get_warriors_got():
 def get_pokemon():
     rows = ["Pikachu", "Charmander", "Bulbasaur", "Squirtle", "Jigglypuff", "Meowth", "Psyduck", "Eevee"]
     return rows
+
+@app.get("/animeCharacters")
+def get_anime_characters():
+    rows = ["Naruto Uzumaki", "Monkey D. Luffy", "Goku", "Sailor Moon", "Light Yagami", "Ichigo Kurosaki", "Edward Elric", "Inuyasha"]
+    return rows
